@@ -1,0 +1,1038 @@
+begin genwnd
+id = information_character;
+spr = ui_frame.spr;
+rect = 0,0,256,406;
+style = KSTYLE_NOMINIMIZE | KSTYLE_NORESIZE | KSTYLE_NOTITLE | KSTYLE_NOSTATUSBAR | KSTYLE_NOTOPFRAME | KSTYLE_MOVE_BY_CUSTOM | KSTYLE_VERTICAL_REPEAT ;
+end
+
+begin static
+id = character_topframe;
+spr = ui_frame.spr;
+ani = window_topframe;
+rect = 0,0,241,15;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_title;
+spr = ui_frame.spr;
+ani = window_titlebar02;
+pos = 0,0;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_subtitle00;
+spr = ui_frame.spr;
+ani = background_infocommon_subtitle1;
+pos = 55,14;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_subtitle01;
+spr = ui_frame.spr;
+ani = background_infocommon_subtitle1;
+pos = 55,96;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_subtitle02;
+spr = ui_frame.spr;
+ani = background_infocommon_subtitle1;
+pos = 55,185;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_subtitle03;
+spr = ui_frame.spr;
+ani = background_infocommon_subtitle1;
+pos = 55,290;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statusbar01;
+spr = ui_frame.spr;
+ani = window_statusbar;
+rect = 2,377,256,28;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin captionbutton
+id = character_addition;
+spr = ui_frame.spr;
+ani = button01_right;
+caption = "font_button_addinfo";
+rect = 150,377,255,405;
+end
+
+begin static
+id = character_subtitle_job;
+spr = ui_frame.spr;
+ani = font_infosubtitle_job;
+pos = 190,17;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_subtitle_stat;
+spr = ui_frame.spr;
+ani = font_infosubtitle_stat;
+pos = 218,99;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_subtitle_comparameter;
+spr = ui_frame.spr;
+ani = font_infosubtitle_comparameter;
+pos = 158,188;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_subtitle_addparameter;
+spr = ui_frame.spr;
+ani = font_infosubtitle_addparameter;
+pos = 158,293;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_subtitle00_inframe;
+spr = ui_frame.spr;
+ani = inframe01;
+rect = 0,34,256,36;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_subtitle01_inframe;
+spr = ui_frame.spr;
+ani = inframe01;
+rect = 0,94,256,96;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_subtitle01_inframe2;
+spr = ui_frame.spr;
+ani = inframe01;
+rect = 0,113,256,115;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_subtitle02_inframe;
+spr = ui_frame.spr;
+ani = inframe01;
+rect = 0,183,256,185;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_subtitle02_inframe2;
+spr = ui_frame.spr;
+ani = inframe01;
+rect = 0,202,256,204;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_subtitle03_inframe;
+spr = ui_frame.spr;
+ani = inframe01;
+rect = 0,288,256,290;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_subtitle03_inframe2;
+spr = ui_frame.spr;
+ani = inframe01;
+rect = 0,307,256,309;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_infojob;
+spr = ui_frame.spr;
+ani = static_info_job;
+pos = 0,35;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bgparty;
+spr = ui_frame.spr;
+ani = background_creatureinfo_name;
+pos = 0,58;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bgguild;
+spr = ui_frame.spr;
+ani = background_creatureinfo_name;
+pos = 0,76;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_jobname_text;
+spr = ui_frame.spr;
+caption = "<b></b>";
+rect = 66,40,251,53;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_placeguild_text;
+spr = ui_frame.spr;
+caption = "<B><#B1ADE0>소속길드</B>";
+rect = 5,61,60,73;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_placeguildname_text;
+spr = ui_frame.spr;
+caption = "<b></b>";
+rect = 66,61,178,74;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_placeparty_text;
+spr = ui_frame.spr;
+caption = "<B><#B1ADE0>소속파티</B>";
+rect = 5,79,58,92;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_placepartyname_text;
+spr = ui_frame.spr;
+caption = "<b></b>";
+rect = 66,79,196,93;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_stat01_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>힘</B>";
+rect = 4,119,48,131;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult01_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 50,119,83,131;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult01_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 87,119,94,131;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult01_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 94,119,123,131;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_stat02_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>체력</B>";
+rect = 4,135,48,147;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult02_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 50,135,83,147;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult02_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 87,135,94,147;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult02_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 94,135,123,147;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_stat03_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>민첩</B>";
+rect = 4,151,48,163;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult03_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 50,151,83,163;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult03_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 87,151,94,163;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult03_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 94,151,123,163;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_stat04_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>집중</B>";
+rect = 4,167,48,179;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult04_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 50,167,83,179;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult04_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 87,167,94,179;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult04_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 94,167,123,179;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_stat05_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>지력</B>";
+rect = 124,119,172,131;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult05_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 174,117,207,134;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult05_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 214,119,221,131;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult05_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 221,119,250,131;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_stat06_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>정신</B>";
+rect = 124,135,172,147;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult06_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 174,135,207,147;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult06_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 214,135,221,147;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult06_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 221,135,250,147;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_stat07_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>행운</B>";
+rect = 124,151,172,163;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult07_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 174,151,207,163;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult07_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 214,151,221,163;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_statresult07_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 221,151,250,163;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_baseprm01_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>공격력</B>";
+rect = 4,208,48,220;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult01_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 50,208,83,220;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult01_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 87,208,94,220;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult01_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 94,208,123,220;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_baseprm02_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>방어력</B>";
+rect = 4,224,48,236;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult02_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 50,224,83,236;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult02_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 87,224,94,236;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult02_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 94,224,123,236;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_baseprm03_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>명중</B>";
+rect = 4,240,48,252;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult03_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 50,240,83,252;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult03_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 87,240,94,252;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult03_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 94,240,123,252;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_baseprm04_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>회피</B>";
+rect = 4,256,48,268;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult04_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 50,256,83,268;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult04_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 87,256,94,268;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult04_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 94,256,123,268;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_baseprm05_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>HP리젠</B>";
+rect = 4,272,48,284;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult05_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 50,272,83,284;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult05_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 87,272,94,284;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult05_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 94,272,123,284;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_baseprm06_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>마력</B>";
+rect = 124,208,172,220;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult06_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 174,208,207,220;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult06_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 214,208,221,220;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult06_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 221,208,250,220;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_baseprm07_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>마방</B>";
+rect = 124,224,172,236;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult07_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 174,224,207,236;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult07_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 215,224,222,236;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult07_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 221,224,250,236;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_baseprm08_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>마명중</B>";
+rect = 124,240,172,252;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult08_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 174,240,207,252;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult08_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 214,240,221,252;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult08_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 221,240,250,252;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_baseprm09_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>마저항</B>";
+rect = 124,256,172,268;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult09_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 174,256,207,268;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult09_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 212,256,217,268;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult09_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 221,256,250,268;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_baseprm10_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>MP리젠</B>";
+rect = 124,272,172,284;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult10_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 174,272,207,284;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult10_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 214,272,221,284;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_bprmresult10_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 221,272,250,284;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_addprm01_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>블럭</B>";
+rect = 4,313,48,325;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult01_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 50,313,83,325;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult01_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 87,313,94,325;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult01_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 94,313,123,325;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_addprm02_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>공속</B>";
+rect = 4,329,48,341;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult02_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 50,329,83,341;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult02_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 87,329,94,341;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult02_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 94,329,123,341;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_addprm03_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>크리</B>";
+rect = 4,345,48,356;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult03_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 50,344,83,355;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult03_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 87,345,94,356;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult03_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 94,345,123,356;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_addprm04_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>시전</B>";
+rect = 4,361,48,372;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult04_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 50,361,83,372;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult04_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 87,361,94,372;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult04_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 94,361,123,372;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_addprm05_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>블럭률</B>";
+rect = 124,313,172,325;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult05_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 174,313,207,325;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult05_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 214,313,221,325;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult05_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 221,313,250,325;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_addprm06_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>이속</B>";
+rect = 124,329,172,341;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult06_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 174,329,207,341;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult06_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 214,329,221,341;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult06_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 221,329,250,341;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_addprm07_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>크리율</B>";
+rect = 124,345,172,356;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult07_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 174,345,207,356;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult07_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 214,345,221,356;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult07_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 221,345,250,356;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_addprm08_text;
+spr = ui_frame.spr;
+caption = "<RIGHT><B><#E9E9D1>재시전</B>";
+rect = 124,361,172,372;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult08_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 174,361,207,372;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult08_1_text;
+spr = ui_frame.spr;
+caption = "<hcenter><vcenter><b></b>";
+rect = 214,361,221,372;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_aprmresult08_2_text;
+spr = ui_frame.spr;
+caption = "<right><b></b>";
+rect = 221,361,250,372;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin static
+id = character_title_font;
+spr = ui_frame.spr;
+ani = font_title_character;
+pos = 18,6;
+flag = KFLAG_NO_GET_MESSAGE ;
+end
+
+begin iconstatic
+id = character_job_icon;
+spr = ui_icon.spr;
+ani = icon_job00;
+rect = 13,36,32,55;
+end
+

@@ -1,0 +1,25 @@
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\WindowsApplication23\bin\Debug\NUI EDITOR RSM.exe.config
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\WindowsApplication23\bin\Debug\NUI EDITOR RSM.exe
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\WindowsApplication23\bin\Debug\NUI EDITOR RSM.pdb
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\WindowsApplication23\bin\Debug\NUI EDITOR RSM.xml
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\WindowsApplication23\obj\Debug\WindowsApplication23.About.resources
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\WindowsApplication23\obj\Debug\WindowsApplication23.edit.resources
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\WindowsApplication23\obj\Debug\WindowsApplication23.Form1.resources
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\WindowsApplication23\obj\Debug\WindowsApplication23.Resources.resources
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\WindowsApplication23\obj\Debug\NUI EDITOR RSM.vbproj.GenerateResource.Cache
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\WindowsApplication23\obj\Debug\NUI EDITOR RSM.exe
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\WindowsApplication23\obj\Debug\NUI EDITOR RSM.xml
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\WindowsApplication23\obj\Debug\NUI EDITOR RSM.pdb
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\back\WindowsApplication23\bin\Debug\NUI EDITOR RSM.exe.config
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\back\WindowsApplication23\obj\Debug\NUI EDITOR RSM.exe
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\back\WindowsApplication23\obj\Debug\NUI EDITOR RSM.xml
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\back\WindowsApplication23\obj\Debug\NUI EDITOR RSM.pdb
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\back\WindowsApplication23\bin\Debug\NUI EDITOR RSM.exe
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\back\WindowsApplication23\bin\Debug\NUI EDITOR RSM.pdb
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\back\WindowsApplication23\bin\Debug\NUI EDITOR RSM.xml
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\back\WindowsApplication23\obj\Debug\NUI EDITOR RSM.vbprojResolveAssemblyReference.cache
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\back\WindowsApplication23\obj\Debug\WindowsApplication23.About.resources
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\back\WindowsApplication23\obj\Debug\WindowsApplication23.edit.resources
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\back\WindowsApplication23\obj\Debug\WindowsApplication23.Form1.resources
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\back\WindowsApplication23\obj\Debug\WindowsApplication23.Resources.resources
+C:\Users\steel\Desktop\Ghost NUI\Ghost NUI\back\WindowsApplication23\obj\Debug\NUI EDITOR RSM.vbproj.GenerateResource.Cache

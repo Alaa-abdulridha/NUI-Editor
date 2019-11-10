@@ -1,0 +1,5 @@
+C:\Users\steel\Desktop\WindowsApplication23\WindowsApplication23\WindowsApplication23\bin\Release\WindowsApplication23.exe.config
+C:\Users\steel\Desktop\WindowsApplication23\WindowsApplication23\WindowsApplication23\obj\Release\WindowsApplication23.edit.resources
+C:\Users\steel\Desktop\WindowsApplication23\WindowsApplication23\WindowsApplication23\obj\Release\WindowsApplication23.Form1.resources
+C:\Users\steel\Desktop\WindowsApplication23\WindowsApplication23\WindowsApplication23\obj\Release\WindowsApplication23.Resources.resources
+C:\Users\steel\Desktop\WindowsApplication23\WindowsApplication23\WindowsApplication23\obj\Release\WindowsApplication23.vbproj.GenerateResource.Cache
