@@ -2,7 +2,7 @@
 **Tested on**: Rappelz 9.5.2 down to epic 5
 **Tage**: NUI, UI, Rappelz, Games, VB, Graphics
 
-Thanks to [@grucing](https://github.com/Yulefier "@grucing") and all RevolutionTeam for the support.
+Thanks to [@gruce](https://github.com/gruce "@gruce") and all RevolutionTeam for the support.
 
 # Description 
 
